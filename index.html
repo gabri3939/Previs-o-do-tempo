@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Orbitron:wght@400..900&display=swap"
+        rel="stylesheet">
+    <title>Previsão do Tempo</title>
+</head>
+
+<body>
+    <div class="caixa-maior">
+        <input type="text" class="input-cidade" placeholder="Digite a cidade" />
+        <button class="botao-busca" onclick="cliqueNoBotao()">
+            <img class="img-busca" src="img/lupaa.png" alt="busca">
+        </button>
+
+        <div class="caixa-media">
+            <h2 class="cidade">Tempo em São Paulo</h2>
+            <p class="temp">21°</p>
+            <div class="caixa-menor">
+                <img class="img-previsao" src="img/nu.png" alt="icone-info-tempo" width="40px">
+                <p class="texto-previsao">Nublado</p>
+            </div>
+            <p class="Umidade">Umidade: 76%</p>
+        </div>
+    </div>
+</body>
+
+</html>
